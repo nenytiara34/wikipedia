@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Survey Form - FE2208569</title>
+</head>
+<body>
+    <h1>Survey Kepuasan Pegawai</h1>
+    <form>
+        <label for="nama">Nama Lengkap</label><br />
+        <input type="text" id="nama" name="nama" /><br />
+
+        <label for="email">Email</label><br />
+        <input type="text" id="email" name="email" /><br />
+
+        <label for="jenkel">Jenis Kelamin</label><br />
+        <input type="radio" id="jenkel" name="fav_languange" value="Perempuan" />
+        <label for="jenkel">Perempuan</label><br />
+        <input type="radio" name="fav_languange" value="Laki-Laki" />
+        <label for="jenkel">Laki-Laki</label><br />
+        <input type="text" id="email" name="email" /><br />
+
+        <label for="tgl">Tanggal Dipekerjakan</label><br />
+        <input type="date" id="tgl" name="tgl" /><br />
+        
+        <label for="q1">Bagaimana Anda menggambarkan tingkat kepuasan kerja Anda secara keseluruhan?</label><br />
+        <input type="radio" id="sgtpuas" name="fav_language" value="Sangat Puas"/>
+        <label for="sgtpuas">Sangat Puas</label><br />
+        <input type="radio" id="puas" name="fav_language" value="Puas"/>
+        <label for="puas">Puas</label><br />
+        <input type="radio" id="tdkpuas" name="fav_language" value="Tidak Puas"/>
+        <label for="tdkpuas">Tidak Puas</label><br />
+
+        <label for="feedback">Harap Berikan Umpan Balik</label><br />
+        <input type="text" id="feedback" name="feedback"/> <br /><br />
+        <input type="submit" value="Submit" onclick="alert('Pengisian Survey Berhasil')"/>
+    </form>
+</body>
+</html>
