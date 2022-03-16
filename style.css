@@ -1,0 +1,39 @@
+.header {
+    background-color: antiquewhite;
+    text-align: center;
+    contain: layout;
+}
+
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: lightgray;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 5cm;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+}
+
+.button {
+    background-color: antiquewhite;
+    margin: 3px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: black;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    contain: layout;
+    padding: 5px;
+}
